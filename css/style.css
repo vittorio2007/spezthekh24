@@ -1,0 +1,84 @@
+@import url(normalize.css);
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+.container{
+  width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+  background-color: #ffcd34;
+  height: 90px;
+  position: relative;
+  padding: 10px 0;
+}
+header li{
+  display: inline-block;
+}
+header a{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+header li a{
+  color: #000;
+  font-weight: bold;
+}
+header .main-nav li a:hover {
+    background-color: #ffe184;
+}
+.btn-order{
+    background-color: #ffe184;
+    padding: 10px 25px;
+}
+.column-left{
+  float: left;
+  margin-top: 20px;
+}
+.column-right{
+  float: right;
+  margin-top: 12px;
+}
+.stripe:after {
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 14px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+    background-size: 35px 14px;
+    position: absolute;
+}
+.logo-brand{
+    font-size: 20px;
+    color: #000;
+    vertical-align: middle;
+}
+.main-nav{
+  float: right;
+}
+.promo-text{
+  text-align: center;
+}
+.promo{
+  background-image: url(../img/bg_mainpage.jpg);
+  position: relative;
+}
+.promo-slogan{
+      margin: 0;
+      font-size: 44px;
+      color: #fff;
+}
+.promo-title{
+  color: #e1e1e1;
+  font-size: 20px;
+  width: 615px;
+  margin: 0 auto 35px;
+}
