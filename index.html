@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Спецтех24</title>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
 <header class="stripe">
@@ -32,53 +33,118 @@
   </div>
 </header>
 <main>
-<section>
+<section class="promo stripe">
+  <div class="container center">
+    <h2 class="promo-title">Вместе мы справимся!</h2>
+    <h1 class="promo-dsc">Спецтех24 - это сеть пунктов аренды спецтехники Cat,
+     оборудования и специализированных инструментов для выполнения большинства видов работ.</h1>
+     <a href="#" class="promo-btn">Перейти в каталог</a>
+  </div>
+</section>
+<div class="feedback">
   <div class="container">
-    <div class="promo">
-      <div class="promo-text">
-        <h2 class="promo-slogan">
-        Вместе мы справимся!
-        </h2>
-          <h1 class="promo-title">Спецтех24 – это сеть пунктов аренды спецтехники Cat, оборудования<br>
-           и специализированных инструментов для выполнения большинства<br>
-           видов работ.</h1>
-        <a href="#" class="promo-btn">Перейти в каталог</a>
+    <form action="#">
+      <fieldset class="feedback-fl">
+        <legend class="feedback-title">Закажите бесплатную консультацию по подбору подходящей техники</legend>
+        <input type="text" placeholder="Как вас зовут">
+        <input type="tel" placeholder="Номер для связи">
+        <select name="" id="">
+          <option value="1">Выберите дату</option>
+          <option value="1">01.02.2016</option>
+          <option value="2">01.02.2016</option>
+          <option value="3">01.02.2016</option>
+        </select>
+        <input type="submit" value="Заказать консультацию" class="feedback-btn">
+      </fieldset>
+    </form>
+  </div>
+</div>
+<div class="advantages">
+  <div class="container">
+    <div class="column3 advantages-item item-1">
+      <p>Техника проходит
+        обязательное обслуживание
+        перед каждым выездом </p>
+    </div>
+    <div class="column3 advantages-item item-2">
+      <p>Все машины оборудованы
+        спец. сигналами, для
+        предупреждения аварий</p>
+    </div>
+    <div class="column3 advantages-item item-3">
+      <p>Привезем модные
+       строительные ограждения
+       к каждому заказу от 20 000</p>
+    </div>
+    <div class="column3 advantages-item item-4">
+      <p>С техникой приедут
+        квалифицированные
+        операторы и водители</p>
+    </div>
+  </div>
+</div>
+<div class="offer stripe">
+  <div class="container">
+    <div class="row">
+      <div class="column3 technic">
+        <h2>Вся техника</h2>
+        <ul>
+          <li><a href="#">Гусеничные экскаваторы</a></li>
+          <li><a href="#">Колёсные экскаваторы</a></li>
+          <li><a href="#">Мини-экскаваторы</a></li>
+          <li><a href="#">Автокраны</a></li>
+          <li><a href="#">Фронтальные погрузчики</a></li>
+          <li><a href="#">Навесное оборудование</a></li>
+          <li><a href="#">Дизельгенераторы</a></li>
+        </ul>
+      </div>
+      <div class="column9 offer-table">
+        <h2>Спецпредложение</h2>
+        <table>
+          <tbody>
+            <tr>
+              <th>Позиция для аренды</th>
+              <th>За смену</th>
+              <th>За неделю</th>
+              <th>За месяц</th>
+            </tr>
+            <tr>
+              <td>Мини-экскаватор CAT</td>
+              <td>5 000</td>
+              <td>25 000</td>
+              <td>60 000</td>
+            </tr>
+            <tr>
+              <td>Экскаватор VOLVO</td>
+              <td>3 000</td>
+              <td>15 000</td>
+              <td>40 000</td>
+            </tr>
+            <tr>
+              <td>Грузовик VOLVO</td>
+              <td>5 000</td>
+              <td>25 000</td>
+              <td>60 000</td>
+            </tr>
+            <tr>
+              <td>Мини-экскаватор CAT</td>
+              <td>3 000</td>
+              <td>15 000</td>
+              <td>40 000</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
-</section>
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="column-fourth"></div>
-      <div class="column-fourth"></div>
-      <div class="column-fourth"></div>
-      <div class="column-fourth"></div>
-    </div>
-  </div>
 </div>
-<div>
-  <div class="container">
-    <div class="row">
-      <aside class="column-left"></aside>
-      <div class="column-right"></div>
-    </div>
-  </div>
-</div>
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="column-left"></div>
-      <div class="column-right"></div>
-    </div>
-  </div>
-</div>
+</main>
 <footer>
 <div class="container">
-  <div class="column-left"></div>
+  <div class="column-left">
+  </div>
   <div class="column-right"></div>
 </div>
 </footer>
-</main>
 </body>
 </html>
