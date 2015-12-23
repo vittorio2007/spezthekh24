@@ -530,6 +530,9 @@ footer li{
 }
 .house-1{
   background-image: url(../img/house-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -270px;
 }
 .house-inner{
   position: absolute;
@@ -542,6 +545,15 @@ footer li{
   margin: 0 auto 15px;
 }
 .house-inner p{
+  margin-bottom: 30px;
   font-size: 14px;
   color: #202e3b;
+}
+.inner-btn{
+  padding: 10px 35px 10px 15px;
+  background-color: #ffcd34;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1d333f;
+  text-decoration: none;
 }
