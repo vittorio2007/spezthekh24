@@ -6,12 +6,9 @@ body{
 }
 .container{
   width: 960px;
-    margin: 0 auto;
-    padding: 0 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow: hidden;
+  margin: 0 auto;
+  padding: 0 10px;
+  overflow: hidden;
 }
 header{
   background-color: #ffcd34;
@@ -30,11 +27,11 @@ header li a{
   color: #000;
 }
 header .main-nav li a:hover {
-    background-color: #ffe184;
+  background-color: #ffe184;
 }
 .btn-order{
-    background-color: #ffe184;
-    padding: 10px 25px;
+  background-color: #ffe184;
+  padding: 10px 25px;
 }
 .column-left{
   float: left;
@@ -114,6 +111,12 @@ header .main-nav li a:hover {
   vertical-align: middle;
   margin-left: 15px;
 }
+.promo-btn:hover{
+  border: 3px solid #a1915a;
+}
+.promo-btn:focus{
+  border: 3px solid #ffe390;
+}
 .feedback{
   background-color: #202e3b;
 }
@@ -161,6 +164,12 @@ input.feedback-btn{
   font-size: 18px;
   background-color: #ffcd34;
   font-weight: bold;
+}
+.feedback-btn:hover{
+  background-color: #ffd966;
+}
+.feedback-btn:active{
+  background-color: #f6bf16;
 }
 input:focus{outline:none;}
 
@@ -337,15 +346,15 @@ th{
 footer li{
   display: inline-block;
 }
-.footer-nav{
-  margin-top: -10px;
-}
 .footer-nav li a{
   padding: 10px 20px;
   color: #fff;
 }
 .footer-nav li a:hover{
-  color: #ffcd34;
+  border: 3px solid #636d76;
+}
+.footer-nav li a:active{
+  border: 3px solid #a6abb1;
 }
 /*contacts*/
 .subheader{
@@ -442,6 +451,7 @@ footer li{
   padding: 12px;
   margin-top: 10px;
   font-size: 16px;
+  width: 103%;
 }
 .order-form input:first-child{
   margin-top: 0;
@@ -514,6 +524,13 @@ footer li{
   font-size: 16px;
   margin-left: 40px;
 }
+.sub-nav li a:hover{
+  font-weight: bold;
+}
+.sub-nav li a:active{
+  text-decoration: none;
+  font-weight: bold;
+}
 .black-stripe:after{
   content: "";
   display: block;
@@ -534,6 +551,18 @@ footer li{
   background-repeat: no-repeat;
   background-position: center -270px;
 }
+.house-2{
+  background-image: url(../img/house-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -270px;
+}
+.house-3{
+  background-image: url(../img/house-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -270px;
+}
 .house-inner{
   position: absolute;
   padding: 30px;
@@ -550,10 +579,275 @@ footer li{
   color: #202e3b;
 }
 .inner-btn{
-  padding: 10px 35px 10px 15px;
+  padding: 10px 25px 10px 15px;
   background-color: #ffcd34;
   font-size: 15px;
   font-weight: bold;
   color: #1d333f;
   text-decoration: none;
+}
+.inner-btn:hover{
+  background-color: #ffd966;
+}
+.inner-btn:active{
+  background-color: #f6bf16;
+}
+.inner-btn:after{
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 19px;
+  background-image: url(../img/port-arrow.png);
+  background-size: 100%;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+/* catalog */
+.cat-subheader{
+  position: relative;
+  background-image: url(../img/bg_catalog.jpg);
+  background-size: cover;
+}
+.about-catalog{
+  width: 605px;
+  float: left;
+}
+.about-catalog h1{
+  font-size: 25px;
+  font-weight: normal;
+  color: #ffcd34;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.about-catalog p{
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.conuslt{
+  margin-top: 60px;
+  width: 240px;
+  float: right;
+}
+.conuslt-popup{
+  font-size: 18px;
+  text-decoration: none;
+  color: #202e3b;
+  background-color: #ffcd34;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+.conuslt-popup:hover{
+  background-color: #ffd966;
+}
+.conuslt-popup:active{
+  background-color: #f6bf16;
+}
+
+.conuslt p{
+  font-size: 16px;
+  color: #fff;
+  margin-top: 25px;
+}
+.technic-cat{
+  position: relative;
+}
+.technic-cat h2{
+  font-size: 26px;
+}
+.technic-cat h2:before{
+  content: '';
+  display: inline-block;
+  width: 31px;
+  height: 24px;
+  background-image: url(../img/truck.png);
+  background-size: 100%;
+  margin-right: 15px;
+}
+.technic-cat ul{
+  margin: 0;
+  padding: 0;
+}
+.technic-cat li{
+  margin-top: 25px;
+}
+.technic-cat a{
+  font-size: 16px;
+  color: #353535;
+}
+.active{
+  text-decoration: none;
+}
+.active:before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 11px;
+  background-image: url(../img/aside-arrow.png);
+  background-size: 100%;
+  margin-right: 10px;
+}
+.pdf{
+  color: #fff !important;
+  padding: 10px 15px 10px 15px;
+  background-color: #354b60;
+  font-size: 16px !important;
+  text-decoration: none;
+}
+.pdf:hover{
+  background-color: #46617a;
+}
+.pdf:active{
+  background-color: #567999;
+}
+.pdf:before{
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 18px;
+  background-image: url(../img/download.png);
+  background-size: 100%;
+  margin-right: 12px;
+}
+.catalog{
+  background-color: #f3f3f3;
+  position: relative;
+}
+.rent-technihcs{
+  margin-left: 80px !important;
+  margin-top: 10px;
+}
+.rent-technihcs-item{
+  display: inline-block;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 25px 30px;
+  position: relative;
+}
+.rent-technihcs-item:nth-child(2n){
+  margin-left: 20px;
+}
+.price{
+  display: block;
+  font-weight: bold;
+  font-size: 27px;
+  color: #000;
+  margin: 40px auto 20px;
+}
+.button-group{
+  font-size: 0;
+  text-align: center;
+}
+.button-group a{
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background-co
+}
+.button-yellow a{
+  background-color: #f3c331;
+}
+.button-yellow a:hover{
+  background-color: #ffd966;
+}
+.button-yellow a:active{
+  background-color: #ffc600;
+}
+.button-blue a{
+  background-color: #354b60;
+}
+.button-blue a:hover{
+  background-color: #46617a;
+}
+.button-blue a:active{
+  background-color: #567999;
+}
+.button-yellow, .button-blue{
+  float:left;
+}
+.new:after{
+  content: '';
+  display: block;
+  width: 73px;
+  height: 72px;
+  background-image: url(../img/ribb.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.pages{
+  margin: 45px 0 45px 290px;
+}
+.pages li{
+  display: inline-block;
+  font-size: 16px;
+}
+.pages li a{
+  text-decoration: none;
+  padding: 3px 9px;
+  border-radius: 3px;
+}
+.pages li a:hover{
+  border: 1px solid #9aa5af;
+}
+.pages li a:active{
+  border: 1px solid #354b60;
+}
+.active-page{
+  color: #fff;
+  background-color: #354b60;
+}
+.catalog-deals-inner{
+  float: right;
+}
+.deals-technihcs-item{
+  display: inline-block;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 25px 30px;
+  position: relative;
+  margin-right: 25px;
+}
+.deals-technihcs-item:last-child{
+  margin-right: 0;
+}
+.catalog-deals {
+  position: relative;
+  padding: 10px 0 40px;
+  background-image: url(../img/catalog_bg.jpg);
+  background-size: cover;
+}
+.catalog-deals h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #fff;
+}
+.deal-price{
+  font-size: 22px;
+  display: block;
+  color: #000;
+  margin: 40px auto 20px;
+}
+.old-price{
+  color: #d12222;
+  text-decoration: line-through;
+}
+.sale:after{
+  content: '';
+  display: block;
+  width: 71px;
+  height: 69px;
+  background-image: url(../img/sale-diff.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* styleguide */
+
+.active-page-h{
+  font-weight: bold;
 }
