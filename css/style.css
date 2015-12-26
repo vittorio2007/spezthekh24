@@ -69,10 +69,9 @@ header .main-nav li a:hover {
 .promo{
   background-image: url(../img/bg_mainpage.jpg);
   background-size: cover;
-  padding: 125px 0 130px;
+  padding: 100px 0 130px;
   color: #fff;
   position: relative;
-  height: 220px;
 }
 .promo-title{
   font-size: 44px;
@@ -148,6 +147,8 @@ input:focus{outline:none;}
   color: #fff;
   background-color: #202e3b;
   border: 2px solid #ffcd34;
+  height: 45px;
+
 }
 select:after{
   width: 0;
@@ -289,6 +290,8 @@ th{
   font-size: 38px;
   color: #f1b132;
   font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
 }
 .reviews{
   float: right;
@@ -309,7 +312,6 @@ th{
 }
 .comment-inner{
   float: right;
-  clear: both;
   width: 480px;
 }
 .comment-inner p{
@@ -329,6 +331,9 @@ th{
   padding: 20px 0 15px;
   background-color: #202e3b;
   position: relative;
+}
+.logo-foot{
+  margin-top: 10px;
 }
 .page-footer a{
   text-decoration: none;
@@ -446,12 +451,11 @@ footer li{
   margin-top: 5px;
 }
 .order-form input{
-  width: 94%;
   border: 1px solid #d5d5d5;
   padding: 12px;
   margin-top: 10px;
   font-size: 16px;
-  width: 103%;
+  width: 100%;
 }
 .order-form input:first-child{
   margin-top: 0;
@@ -463,6 +467,7 @@ footer li{
   padding: 12px;
   resize: none;
 }
+.order-form textarea:focus { outline: none; }
 .offer-btn{
   width: 300px;
   background-color: #354b60;
@@ -572,11 +577,13 @@ footer li{
 }
 .house-inner h2{
   margin: 0 auto 15px;
+  width: 350px;
 }
 .house-inner p{
   margin-bottom: 30px;
   font-size: 14px;
   color: #202e3b;
+  width: 300px;
 }
 .inner-btn{
   padding: 10px 25px 10px 15px;
@@ -677,6 +684,7 @@ footer li{
 }
 .active{
   text-decoration: none;
+  font-weight: bold;
 }
 .active:before{
   content: '';
@@ -726,6 +734,9 @@ footer li{
 }
 .rent-technihcs-item:nth-child(2n){
   margin-left: 20px;
+}
+.rent-technihcs-item h3{
+  width: 200px;
 }
 .price{
   display: block;
@@ -786,6 +797,7 @@ footer li{
   font-size: 16px;
 }
 .pages li a{
+  border: 1px solid #f3f3f3;
   text-decoration: none;
   padding: 3px 9px;
   border-radius: 3px;
@@ -813,6 +825,9 @@ footer li{
 }
 .deals-technihcs-item:last-child{
   margin-right: 0;
+}
+.deals-technihcs-item h3{
+  width: 200px;
 }
 .catalog-deals {
   position: relative;
@@ -850,4 +865,42 @@ footer li{
 
 .active-page-h{
   font-weight: bold;
+}
+.about-reviews{
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.about-reviews h2{
+  color: #fff;
+  margin-top: 12px;
+}
+.about-reviews-item img {
+    margin-right: 20px;
+    max-width: 120px;
+    border: 3px solid #f1b132;
+    border-radius: 3px;
+}
+
+.about-reviews-item {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.about-reviews-item blockquote {
+  width: 75%;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 102px;
+}
+
+.about-reviews-item cite {
+  font-style: normal;
+}
+.about-color-yellow {
+    color: #f1b132;
+    font-weight: bold;
 }
